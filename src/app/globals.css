@@ -21,7 +21,8 @@
   cursor: pointer;
 }
 
-.blur-1 , .blur-2{
+.blur-1,
+.blur-2 {
   opacity: .7;
 }
 
@@ -41,9 +42,11 @@
 /* Small screen size (sm) */
 @media (max-width: 500px) {
   .bg-img {
+    background-position: right right;
     clip-path: circle(150px at bottom);
   }
 }
+
 .fade-in-text {
   opacity: 0;
   transform: translateY(40px);
